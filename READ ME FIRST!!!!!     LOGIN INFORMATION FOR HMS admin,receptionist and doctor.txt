@@ -1,0 +1,17 @@
+LOG IN INFORMATION FOR THE HMS:
+
+ADMIN LOG IN DETAILS:
+
+Username: Admin
+Password: admin
+
+RECEPTIONIST LOG IN DETAILS:
+
+Username: Receptionist
+Password: receptionist
+
+DOCTOR LOG IN DETAILS:
+
+Username: Doctor	
+Password: doctor
+
