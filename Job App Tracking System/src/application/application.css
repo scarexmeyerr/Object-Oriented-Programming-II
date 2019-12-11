@@ -1,0 +1,274 @@
+/* 
+ * 		CSS FOR ALL THE APPLICATION WINDOWS
+ */
+
+/* GENERAL STYLING */
+.root
+{
+	-fx-background-color: linear-gradient(to bottom, #45B39D, #34495E);
+}
+
+.label
+{
+	-fx-font-size:18px;
+	-fx-font-weight: bold;
+	-fx-font-family:"Times New Roman";
+	-fx-text-fill: #0E1D33;
+	-fx-padding: 10px 10px;
+}
+
+.button 
+{
+    -fx-text-fill:black;
+    -fx-font-size:20px;
+    -fx-font-family:"Times New Roman";
+    -fx-font-weight:bold;
+    /*-fx-background-color:linear-gradient(#61a2b1,#2A5058);   */ 
+    -fx-background-color: transparent;    
+    -fx-border-color: black;
+    -fx-border-radius: 5.0;
+}
+
+.button:hover
+{
+	-fx-text-fill:white;
+	-fx-border-color: white;
+}
+
+
+/* MAIN WINDOW STYLING */
+#mainSceneTitle
+{
+	-fx-font-family: "Times New Roman";
+	-fx-font-size:50px;
+	-fx-font-weight: bold;
+	-fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+#invisibleText
+{
+	-fx-text-fill:white;
+	-fx-font-size: 80px;
+}
+
+#newHBtn
+{
+	-fx-padding: 50px 50px;
+}
+
+#searchHBtn
+{
+	-fx-padding: 50px 50px;
+}
+
+#statsHBtn
+{
+	-fx-padding: 50px 50px;
+}
+
+/* DATA ENTRY WINDOW STYLING */
+#dataEntrySceneTitle
+{
+	-fx-text-alignment: center;
+	-fx-font-family: "Times New Roman";
+	-fx-font-size:40px;
+	-fx-font-weight: bold;
+}
+
+#invisibleText
+{
+	-fx-text-alignment: center;
+	-fx-font-family: "Times New Roman";
+	-fx-font-size:40px;
+	-fx-font-weight: bold;
+}
+
+#submitHBtn
+{
+	-fx-padding: 50px 50px;
+}
+
+#cancelHBtn
+{
+	-fx-padding: 50px 100px;
+}
+
+.text-field
+{
+	-fx-font-size:15px;
+	-fx-font-family: "Times New Roman";
+}
+
+.combo-box
+{
+	-fx-font-size:15px;
+	-fx-font-family: "Times New Roman";
+}
+
+.date-picker-popup 
+{
+    -fx-pref-width: 325.0;
+}
+
+/* DATA SEARCH WINDOW STYLING */
+#dataSearchSceneTitle
+{
+	-fx-text-alignment: center;
+	-fx-font-family: "Times New Roman";
+	-fx-font-size:40px;
+	-fx-font-weight: bold;
+}
+
+#invisibleText2
+{
+	-fx-text-alignment: center;
+	-fx-font-family: "Times New Roman";
+	-fx-font-size:40px;
+	-fx-font-weight: bold;
+}
+
+.radio-button
+{
+	-fx-font-size:15px;
+	-fx-font-weight: bold;
+	-fx-font-family:"Times New Roman";
+	-fx-text-fill: #0E1D33;
+	-fx-padding: 10px 10px;
+}
+
+#searchDataHBtn
+{
+	-fx-padding: 50px 50px;
+}
+
+#searchDataCancelHBtn
+{
+	-fx-padding: 50px 50px;
+}
+
+/* DATA DISPLAY WINDOW STYLING */
+#dataDisplaySceneTitle
+{
+	-fx-text-alignment: center;
+	-fx-font-family: "Times New Roman";
+	-fx-font-size:40px;
+	-fx-font-weight: bold;
+}
+
+#invisibleText3
+{
+	-fx-text-alignment: center;
+	-fx-font-family: "Times New Roman";
+	-fx-font-size:40px;
+	-fx-font-weight: bold;
+}
+
+#noOfEntries
+{
+	-fx-text-alignment: center;
+	-fx-font-family: "Times New Roman";
+	-fx-font-size:15px;
+	-fx-font-weight: bold;
+}
+
+.table-view .column-header-background .label
+{
+    -fx-background-color: transparent; 
+    -fx-font-weight:bold;
+    -fx-font-size: 15px;
+}
+
+.table-view .table-column
+{
+    -fx-alignment:center;
+}
+
+.table-view .table-cell
+{
+    -fx-font-family: "Times New Roman";      
+}
+
+#displayCancelHBtn
+{
+	-fx-padding: 50px 100px;
+}
+
+/* CHART DISPLAY WINDOW STYLING */
+#chartDisplaySceneTitle
+{
+	-fx-text-alignment: center;
+	-fx-font-family: "Times New Roman";
+	-fx-font-size:40px;
+	-fx-font-weight: bold;
+}
+
+#invisibleText4
+{
+	-fx-text-alignment: center;
+	-fx-font-family: "Times New Roman";
+	-fx-font-size:20px;
+	-fx-font-weight: bold;
+}
+
+#invisibleText5
+{
+	-fx-text-alignment: center;
+	-fx-font-family: "Times New Roman";
+	-fx-font-size:10px;
+	-fx-font-weight: bold;
+}
+
+#invisibleText6
+{
+	-fx-text-alignment: center;
+	-fx-font-family: "Times New Roman";
+	-fx-font-size:10px;
+	-fx-font-weight: bold;
+}
+
+.chart-plot-background 
+{
+    -fx-background-color: transparent;
+}
+
+.chart-vertical-grid-lines 
+{
+    -fx-stroke: transparent;
+}
+
+.chart-horizontal-grid-lines 
+{
+    -fx-stroke: transparent;
+}
+
+.default-color0.chart-bar 
+{ 
+	-fx-bar-fill: black;
+}
+
+.axis
+{
+  -fx-tick-label-font-size: 15;
+  -fx-tick-label-fill: black;
+  -fx-tick-label-font-family: "Times New Roman";
+}
+
+#weekNo
+{
+	-fx-padding: 0px 40px;
+}
+
+#monthNo
+{
+	-fx-padding: 0px 50px;
+}
+
+#yearNo
+{
+	-fx-padding: 0px 50px;
+}
+
+#backHBtn
+{
+	-fx-padding: 30px 50px;
+}
